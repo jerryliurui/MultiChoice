@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5754D35EA43CC331824F9E /* Pods_MultiChoiceViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0295F908E54D39EFFF9D701 /* Pods_MultiChoiceViewTests.framework */; };
+		2EFCEC45B15F84E8E27080D7 /* Pods_MultiChoiceView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D4BBD753112D844AE45862 /* Pods_MultiChoiceView.framework */; };
+		708C69B7243862FA00B8D79C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69B6243862FA00B8D79C /* AppDelegate.m */; };
+		708C69BA243862FA00B8D79C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69B9243862FA00B8D79C /* SceneDelegate.m */; };
+		708C69BD243862FA00B8D79C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69BC243862FA00B8D79C /* ViewController.m */; };
+		708C69C0243862FA00B8D79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708C69BE243862FA00B8D79C /* Main.storyboard */; };
+		708C69C2243862FB00B8D79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708C69C1243862FB00B8D79C /* Assets.xcassets */; };
+		708C69C5243862FB00B8D79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708C69C3243862FB00B8D79C /* LaunchScreen.storyboard */; };
+		708C69C8243862FB00B8D79C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69C7243862FB00B8D79C /* main.m */; };
+		708C69D2243862FC00B8D79C /* MultiChoiceViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69D1243862FC00B8D79C /* MultiChoiceViewTests.m */; };
+		708C69DD243862FC00B8D79C /* MultiChoiceViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69DC243862FC00B8D79C /* MultiChoiceViewUITests.m */; };
+		708C69ED243863DC00B8D79C /* RRMultiChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69EC243863DC00B8D79C /* RRMultiChoiceView.m */; };
+		708C69F0243863F200B8D79C /* RRMultiChoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69EF243863F200B8D79C /* RRMultiChoiceTool.m */; };
+		708C69F32438640200B8D79C /* RRMultiChoiceItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C69F22438640200B8D79C /* RRMultiChoiceItemView.m */; };
+		7A187AAD6F2C724782946982 /* Pods_MultiChoiceView_MultiChoiceViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACE40B7CD8183C4D8D2C06B /* Pods_MultiChoiceView_MultiChoiceViewUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		708C69CE243862FC00B8D79C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708C69AA243862FA00B8D79C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708C69B1243862FA00B8D79C;
+			remoteInfo = MultiChoiceView;
+		};
+		708C69D9243862FC00B8D79C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708C69AA243862FA00B8D79C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708C69B1243862FA00B8D79C;
+			remoteInfo = MultiChoiceView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F951E28D136119D0062758 /* Pods-MultiChoiceViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiChoiceViewTests.release.xcconfig"; path = "Target Support Files/Pods-MultiChoiceViewTests/Pods-MultiChoiceViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		35251577BBF19FD3598355F1 /* Pods-MultiChoiceView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiChoiceView.release.xcconfig"; path = "Target Support Files/Pods-MultiChoiceView/Pods-MultiChoiceView.release.xcconfig"; sourceTree = "<group>"; };
+		3ACE40B7CD8183C4D8D2C06B /* Pods_MultiChoiceView_MultiChoiceViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiChoiceView_MultiChoiceViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D4BBD753112D844AE45862 /* Pods_MultiChoiceView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiChoiceView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		708C69B2243862FA00B8D79C /* MultiChoiceView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiChoiceView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		708C69B5243862FA00B8D79C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		708C69B6243862FA00B8D79C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		708C69B8243862FA00B8D79C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		708C69B9243862FA00B8D79C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		708C69BB243862FA00B8D79C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		708C69BC243862FA00B8D79C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		708C69BF243862FA00B8D79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		708C69C1243862FB00B8D79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		708C69C4243862FB00B8D79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		708C69C6243862FB00B8D79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708C69C7243862FB00B8D79C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		708C69CD243862FC00B8D79C /* MultiChoiceViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiChoiceViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708C69D1243862FC00B8D79C /* MultiChoiceViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiChoiceViewTests.m; sourceTree = "<group>"; };
+		708C69D3243862FC00B8D79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708C69D8243862FC00B8D79C /* MultiChoiceViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiChoiceViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708C69DC243862FC00B8D79C /* MultiChoiceViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiChoiceViewUITests.m; sourceTree = "<group>"; };
+		708C69DE243862FC00B8D79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708C69EB243863DC00B8D79C /* RRMultiChoiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRMultiChoiceView.h; sourceTree = "<group>"; };
+		708C69EC243863DC00B8D79C /* RRMultiChoiceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRMultiChoiceView.m; sourceTree = "<group>"; };
+		708C69EE243863F200B8D79C /* RRMultiChoiceTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRMultiChoiceTool.h; sourceTree = "<group>"; };
+		708C69EF243863F200B8D79C /* RRMultiChoiceTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRMultiChoiceTool.m; sourceTree = "<group>"; };
+		708C69F12438640200B8D79C /* RRMultiChoiceItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRMultiChoiceItemView.h; sourceTree = "<group>"; };
+		708C69F22438640200B8D79C /* RRMultiChoiceItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRMultiChoiceItemView.m; sourceTree = "<group>"; };
+		70ACDCC724386B22007FB3DA /* RRCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRCommonDefine.h; sourceTree = "<group>"; };
+		8C47B930A6C1566E116EFE5D /* Pods-MultiChoiceViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiChoiceViewTests.debug.xcconfig"; path = "Target Support Files/Pods-MultiChoiceViewTests/Pods-MultiChoiceViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0295F908E54D39EFFF9D701 /* Pods_MultiChoiceViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiChoiceViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A176DFD5C273BC118BEDE1C4 /* Pods-MultiChoiceView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiChoiceView.debug.xcconfig"; path = "Target Support Files/Pods-MultiChoiceView/Pods-MultiChoiceView.debug.xcconfig"; sourceTree = "<group>"; };
+		C21ED22110AAAA6820C02EEF /* Pods-MultiChoiceView-MultiChoiceViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiChoiceView-MultiChoiceViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-MultiChoiceView-MultiChoiceViewUITests/Pods-MultiChoiceView-MultiChoiceViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D5FCB154D7BCA833B8927B /* Pods-MultiChoiceView-MultiChoiceViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiChoiceView-MultiChoiceViewUITests.release.xcconfig"; path = "Target Support Files/Pods-MultiChoiceView-MultiChoiceViewUITests/Pods-MultiChoiceView-MultiChoiceViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		708C69AF243862FA00B8D79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFCEC45B15F84E8E27080D7 /* Pods_MultiChoiceView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708C69CA243862FC00B8D79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5754D35EA43CC331824F9E /* Pods_MultiChoiceViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708C69D5243862FC00B8D79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A187AAD6F2C724782946982 /* Pods_MultiChoiceView_MultiChoiceViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D385190E46C30A7B4D138AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A176DFD5C273BC118BEDE1C4 /* Pods-MultiChoiceView.debug.xcconfig */,
+				35251577BBF19FD3598355F1 /* Pods-MultiChoiceView.release.xcconfig */,
+				C21ED22110AAAA6820C02EEF /* Pods-MultiChoiceView-MultiChoiceViewUITests.debug.xcconfig */,
+				D0D5FCB154D7BCA833B8927B /* Pods-MultiChoiceView-MultiChoiceViewUITests.release.xcconfig */,
+				8C47B930A6C1566E116EFE5D /* Pods-MultiChoiceViewTests.debug.xcconfig */,
+				05F951E28D136119D0062758 /* Pods-MultiChoiceViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		708C69A9243862FA00B8D79C = {
+			isa = PBXGroup;
+			children = (
+				708C69B4243862FA00B8D79C /* MultiChoiceView */,
+				708C69D0243862FC00B8D79C /* MultiChoiceViewTests */,
+				708C69DB243862FC00B8D79C /* MultiChoiceViewUITests */,
+				708C69B3243862FA00B8D79C /* Products */,
+				2D385190E46C30A7B4D138AB /* Pods */,
+				ED07FBD4460F8C4CA23496A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		708C69B3243862FA00B8D79C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708C69B2243862FA00B8D79C /* MultiChoiceView.app */,
+				708C69CD243862FC00B8D79C /* MultiChoiceViewTests.xctest */,
+				708C69D8243862FC00B8D79C /* MultiChoiceViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708C69B4243862FA00B8D79C /* MultiChoiceView */ = {
+			isa = PBXGroup;
+			children = (
+				708C69EA2438630C00B8D79C /* MultiChoiceViews */,
+				708C69B5243862FA00B8D79C /* AppDelegate.h */,
+				708C69B6243862FA00B8D79C /* AppDelegate.m */,
+				708C69B8243862FA00B8D79C /* SceneDelegate.h */,
+				708C69B9243862FA00B8D79C /* SceneDelegate.m */,
+				708C69BB243862FA00B8D79C /* ViewController.h */,
+				708C69BC243862FA00B8D79C /* ViewController.m */,
+				708C69BE243862FA00B8D79C /* Main.storyboard */,
+				708C69C1243862FB00B8D79C /* Assets.xcassets */,
+				708C69C3243862FB00B8D79C /* LaunchScreen.storyboard */,
+				708C69C6243862FB00B8D79C /* Info.plist */,
+				708C69C7243862FB00B8D79C /* main.m */,
+			);
+			path = MultiChoiceView;
+			sourceTree = "<group>";
+		};
+		708C69D0243862FC00B8D79C /* MultiChoiceViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				708C69D1243862FC00B8D79C /* MultiChoiceViewTests.m */,
+				708C69D3243862FC00B8D79C /* Info.plist */,
+			);
+			path = MultiChoiceViewTests;
+			sourceTree = "<group>";
+		};
+		708C69DB243862FC00B8D79C /* MultiChoiceViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				708C69DC243862FC00B8D79C /* MultiChoiceViewUITests.m */,
+				708C69DE243862FC00B8D79C /* Info.plist */,
+			);
+			path = MultiChoiceViewUITests;
+			sourceTree = "<group>";
+		};
+		708C69EA2438630C00B8D79C /* MultiChoiceViews */ = {
+			isa = PBXGroup;
+			children = (
+				708C69EB243863DC00B8D79C /* RRMultiChoiceView.h */,
+				708C69EC243863DC00B8D79C /* RRMultiChoiceView.m */,
+				708C69EE243863F200B8D79C /* RRMultiChoiceTool.h */,
+				708C69EF243863F200B8D79C /* RRMultiChoiceTool.m */,
+				708C69F12438640200B8D79C /* RRMultiChoiceItemView.h */,
+				708C69F22438640200B8D79C /* RRMultiChoiceItemView.m */,
+				70ACDCC724386B22007FB3DA /* RRCommonDefine.h */,
+			);
+			path = MultiChoiceViews;
+			sourceTree = "<group>";
+		};
+		ED07FBD4460F8C4CA23496A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D4BBD753112D844AE45862 /* Pods_MultiChoiceView.framework */,
+				3ACE40B7CD8183C4D8D2C06B /* Pods_MultiChoiceView_MultiChoiceViewUITests.framework */,
+				A0295F908E54D39EFFF9D701 /* Pods_MultiChoiceViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708C69B1243862FA00B8D79C /* MultiChoiceView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708C69E1243862FC00B8D79C /* Build configuration list for PBXNativeTarget "MultiChoiceView" */;
+			buildPhases = (
+				D901E644D123DEC1AA8A2330 /* [CP] Check Pods Manifest.lock */,
+				708C69AE243862FA00B8D79C /* Sources */,
+				708C69AF243862FA00B8D79C /* Frameworks */,
+				708C69B0243862FA00B8D79C /* Resources */,
+				FDA23DBC38A0C4306A1B19F2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiChoiceView;
+			productName = MultiChoiceView;
+			productReference = 708C69B2243862FA00B8D79C /* MultiChoiceView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		708C69CC243862FC00B8D79C /* MultiChoiceViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708C69E4243862FC00B8D79C /* Build configuration list for PBXNativeTarget "MultiChoiceViewTests" */;
+			buildPhases = (
+				564E9698081FB891CA961467 /* [CP] Check Pods Manifest.lock */,
+				708C69C9243862FC00B8D79C /* Sources */,
+				708C69CA243862FC00B8D79C /* Frameworks */,
+				708C69CB243862FC00B8D79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708C69CF243862FC00B8D79C /* PBXTargetDependency */,
+			);
+			name = MultiChoiceViewTests;
+			productName = MultiChoiceViewTests;
+			productReference = 708C69CD243862FC00B8D79C /* MultiChoiceViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		708C69D7243862FC00B8D79C /* MultiChoiceViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708C69E7243862FC00B8D79C /* Build configuration list for PBXNativeTarget "MultiChoiceViewUITests" */;
+			buildPhases = (
+				61B964A54D645C3D95C3FDD7 /* [CP] Check Pods Manifest.lock */,
+				708C69D4243862FC00B8D79C /* Sources */,
+				708C69D5243862FC00B8D79C /* Frameworks */,
+				708C69D6243862FC00B8D79C /* Resources */,
+				C2D684C9A08C5BE060259B95 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708C69DA243862FC00B8D79C /* PBXTargetDependency */,
+			);
+			name = MultiChoiceViewUITests;
+			productName = MultiChoiceViewUITests;
+			productReference = 708C69D8243862FC00B8D79C /* MultiChoiceViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		708C69AA243862FA00B8D79C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = JerryLiu;
+				TargetAttributes = {
+					708C69B1243862FA00B8D79C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					708C69CC243862FC00B8D79C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 708C69B1243862FA00B8D79C;
+					};
+					708C69D7243862FC00B8D79C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 708C69B1243862FA00B8D79C;
+					};
+				};
+			};
+			buildConfigurationList = 708C69AD243862FA00B8D79C /* Build configuration list for PBXProject "MultiChoiceView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 708C69A9243862FA00B8D79C;
+			productRefGroup = 708C69B3243862FA00B8D79C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708C69B1243862FA00B8D79C /* MultiChoiceView */,
+				708C69CC243862FC00B8D79C /* MultiChoiceViewTests */,
+				708C69D7243862FC00B8D79C /* MultiChoiceViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		708C69B0243862FA00B8D79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708C69C5243862FB00B8D79C /* LaunchScreen.storyboard in Resources */,
+				708C69C2243862FB00B8D79C /* Assets.xcassets in Resources */,
+				708C69C0243862FA00B8D79C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708C69CB243862FC00B8D79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708C69D6243862FC00B8D79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564E9698081FB891CA961467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiChoiceViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61B964A54D645C3D95C3FDD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiChoiceView-MultiChoiceViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D684C9A08C5BE060259B95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiChoiceView-MultiChoiceViewUITests/Pods-MultiChoiceView-MultiChoiceViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiChoiceView-MultiChoiceViewUITests/Pods-MultiChoiceView-MultiChoiceViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiChoiceView-MultiChoiceViewUITests/Pods-MultiChoiceView-MultiChoiceViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D901E644D123DEC1AA8A2330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiChoiceView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA23DBC38A0C4306A1B19F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiChoiceView/Pods-MultiChoiceView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiChoiceView/Pods-MultiChoiceView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiChoiceView/Pods-MultiChoiceView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		708C69AE243862FA00B8D79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708C69F32438640200B8D79C /* RRMultiChoiceItemView.m in Sources */,
+				708C69BD243862FA00B8D79C /* ViewController.m in Sources */,
+				708C69B7243862FA00B8D79C /* AppDelegate.m in Sources */,
+				708C69C8243862FB00B8D79C /* main.m in Sources */,
+				708C69BA243862FA00B8D79C /* SceneDelegate.m in Sources */,
+				708C69F0243863F200B8D79C /* RRMultiChoiceTool.m in Sources */,
+				708C69ED243863DC00B8D79C /* RRMultiChoiceView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708C69C9243862FC00B8D79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708C69D2243862FC00B8D79C /* MultiChoiceViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708C69D4243862FC00B8D79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708C69DD243862FC00B8D79C /* MultiChoiceViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		708C69CF243862FC00B8D79C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708C69B1243862FA00B8D79C /* MultiChoiceView */;
+			targetProxy = 708C69CE243862FC00B8D79C /* PBXContainerItemProxy */;
+		};
+		708C69DA243862FC00B8D79C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708C69B1243862FA00B8D79C /* MultiChoiceView */;
+			targetProxy = 708C69D9243862FC00B8D79C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		708C69BE243862FA00B8D79C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				708C69BF243862FA00B8D79C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		708C69C3243862FB00B8D79C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				708C69C4243862FB00B8D79C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		708C69DF243862FC00B8D79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		708C69E0243862FC00B8D79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		708C69E2243862FC00B8D79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A176DFD5C273BC118BEDE1C4 /* Pods-MultiChoiceView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = MultiChoiceView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Finalno9.MultiChoiceView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708C69E3243862FC00B8D79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35251577BBF19FD3598355F1 /* Pods-MultiChoiceView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = MultiChoiceView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Finalno9.MultiChoiceView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		708C69E5243862FC00B8D79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C47B930A6C1566E116EFE5D /* Pods-MultiChoiceViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = MultiChoiceViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Finalno9.MultiChoiceViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiChoiceView.app/MultiChoiceView";
+			};
+			name = Debug;
+		};
+		708C69E6243862FC00B8D79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F951E28D136119D0062758 /* Pods-MultiChoiceViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = MultiChoiceViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Finalno9.MultiChoiceViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiChoiceView.app/MultiChoiceView";
+			};
+			name = Release;
+		};
+		708C69E8243862FC00B8D79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21ED22110AAAA6820C02EEF /* Pods-MultiChoiceView-MultiChoiceViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = MultiChoiceViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Finalno9.MultiChoiceViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiChoiceView;
+			};
+			name = Debug;
+		};
+		708C69E9243862FC00B8D79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D5FCB154D7BCA833B8927B /* Pods-MultiChoiceView-MultiChoiceViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = MultiChoiceViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Finalno9.MultiChoiceViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiChoiceView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		708C69AD243862FA00B8D79C /* Build configuration list for PBXProject "MultiChoiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708C69DF243862FC00B8D79C /* Debug */,
+				708C69E0243862FC00B8D79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708C69E1243862FC00B8D79C /* Build configuration list for PBXNativeTarget "MultiChoiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708C69E2243862FC00B8D79C /* Debug */,
+				708C69E3243862FC00B8D79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708C69E4243862FC00B8D79C /* Build configuration list for PBXNativeTarget "MultiChoiceViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708C69E5243862FC00B8D79C /* Debug */,
+				708C69E6243862FC00B8D79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708C69E7243862FC00B8D79C /* Build configuration list for PBXNativeTarget "MultiChoiceViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708C69E8243862FC00B8D79C /* Debug */,
+				708C69E9243862FC00B8D79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 708C69AA243862FA00B8D79C /* Project object */;
+}
